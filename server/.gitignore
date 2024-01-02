@@ -1,0 +1,25 @@
+# Node modules
+/node_modules/
+
+# Dependency directories
+/dist/
+/vendor/
+
+# macOs
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
