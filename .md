@@ -39,3 +39,32 @@ Before you begin, ensure you have the following installed:
 
 ## Navigate to the project directory:
  ```cd aerovue-app```
+
+ ## Install dependencies:
+ ```npm instal```
+
+ ## Configuration
+ ``Create a .env file in the root directory.``
+ ```PORT=4001
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+Replace your_mongodb_connection_string and your_secret_key with your MongoDB connection string and a secure secret key for JWT.
+
+## Usage
+To start the development server, run:
+```npm run dev
+```
+Visit http://localhost:4001 in your browser to access the application.
+
+## API Documentation
+Detailed API documentation can be found here. <!-- Replace with the actual path -->
+
+## Contributing
+We welcome contributions! Please follow our contribution guidelines. <!-- Create CONTRIBUTING.md file with contribution guidelines -->
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+```
+Copy this entire block and replace placeholders and customize sections as needed for your specific project. If you have additional sections or details to add, feel free to modify the README accordingly.
+```
