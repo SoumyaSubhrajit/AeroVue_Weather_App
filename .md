@@ -53,8 +53,7 @@ Replace your_mongodb_connection_string and your_secret_key with your MongoDB con
 
 ## Usage
 To start the development server, run:
-```npm run dev
-```
+``` npm run dev ```
 Visit http://localhost:4001 in your browser to access the application.
 
 ## API Documentation
