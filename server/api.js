@@ -3,7 +3,7 @@ const axios = require('axios');
 const apiKey = ' f84f8f73db7b45acb22112039240301';
 const city = 'cuttack'; // Replace with your desired city
 
-const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+const apiUrl = `https://api.weatherapi.com/v1/?key=${apiKey}&q=${city}`;
 
 async function fetchWeatherData() {
   try {

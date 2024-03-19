@@ -35,5 +35,5 @@ async function getWeatherData(city) {
 
   return response.data;
 }
-
+ 
 module.exports = router;
